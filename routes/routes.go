@@ -9,6 +9,7 @@ import (
 )
 
 func HandleRequest() {
+	//mux
 	r := mux.NewRouter()
 	r.HandleFunc("/", controllers.Home)
 	r.HandleFunc("/api/personalidades", controllers.TodasPersonalidades)
