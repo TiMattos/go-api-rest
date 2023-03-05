@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+
 	models.Personalidades = []models.Personalidade{
 		{Id: 1, Nome: "Thiago", Historia: "historia do Thiago"},
 		{Id: 2, Nome: "Stephanie", Historia: "historia do Stephanie"},
